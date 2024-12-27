@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is the API for the Shelfie application.",
+        "title": "Shelfie",
+        "termsOfService": "TBD",
+        "contact": {
+            "name": "Byron Ojua-Nice",
+            "url": "http://firstlaunch.dev",
+            "email": "byronojua@firstlaunch.dev"
+        },
+        "license": {
+            "name": "TBD",
+            "url": "TBD"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "BearerAuth": {
+            "description": "Use the format: `Bearer \u003cyour_token\u003e` (Bearer must be added before the token)",
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

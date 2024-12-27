@@ -1,0 +1,23 @@
+basePath: /
+host: localhost:8080
+info:
+  contact:
+    email: byronojua@firstlaunch.dev
+    name: Byron Ojua-Nice
+    url: http://firstlaunch.dev
+  description: This is the API for the Shelfie application.
+  license:
+    name: TBD
+    url: TBD
+  termsOfService: TBD
+  title: Shelfie
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  BearerAuth:
+    description: 'Use the format: `Bearer <your_token>` (Bearer must be added before
+      the token)'
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
